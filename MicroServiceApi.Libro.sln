@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{7436C96B-A20E-4335-8C29-0D191CBDCBEE}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0E9B7D55-9BEE-4BD4-8609-FBF0CD63191D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7436C96B-A20E-4335-8C29-0D191CBDCBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7436C96B-A20E-4335-8C29-0D191CBDCBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7436C96B-A20E-4335-8C29-0D191CBDCBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9B7D55-9BEE-4BD4-8609-FBF0CD63191D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9B7D55-9BEE-4BD4-8609-FBF0CD63191D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9B7D55-9BEE-4BD4-8609-FBF0CD63191D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9B7D55-9BEE-4BD4-8609-FBF0CD63191D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

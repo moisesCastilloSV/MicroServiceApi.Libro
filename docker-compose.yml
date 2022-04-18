@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  tiendaservicios.api.libro:
+    image: ${DOCKER_REGISTRY-}tiendaserviciosapilibro
+    build:
+      context: .
+      dockerfile: TiendaServicios.Api.Libro/Dockerfile
+
+
+networks:
+  default:
+    external:
+      name: microservicenet
