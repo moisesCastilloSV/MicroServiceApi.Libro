@@ -15,6 +15,10 @@ dotnet ef database update --project TiendaServicio.Api.Autor
 o
 dotnet ef database update si estas dentro de la carpeta del proyecto
 
+crear clases apartir de la base 
+dotnet ef dbcontext scaffold "server=servername;Database=dbname;Trusted_Connection=True; User ID=user;Password=pass" Microsoft.EntityFrameworkCore.SqlServer -o Models -t divisionProducto -t Beneficios -t Condiciones --use-database-names -c "DBContext" --context-dir CTX  --data-annotations  --force
+
+
 https://hub.docker.com/_/microsoft-mssql-server?tab=description
 la imagen se descarga asi 
 docker pull mcr.microsoft.com/mssql/server
